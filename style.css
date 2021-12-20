@@ -36,19 +36,74 @@ table{
     border-collapse: collapse;
 }
 
+tr:first-child{
+    background-color: paleturquoise;
+}
+
 h1{
     text-align: center ;
 }
 
-nav{
+.M{
     text-align: center;
+    border: 10px dashed blue;
+    border-radius: 5px;
+    height: 65px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
 }
 
+
 header a{
-    color: white;
-    background-color: navy;
+    color: black;   
     font-size: 20px;
     text-decoration: none;
-    border: 1px solid white;
+    border: 3px dashed blue;
     border-radius: 5px;
+    background-color: white;
+
+}
+
+header a:hover{
+    color: blue;
+}
+
+header a:focus{
+    background-color:#fff27d ;
+}
+
+.Evo {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Doro2{
+    display: flex;
+    justify-content: center;
+}
+.Goro2{
+    display: flex;
+    justify-content: center;
+}
+.Gorniy2{
+    display: flex;
+    justify-content: center;
+}
+.Shos2{
+    display: flex;
+    justify-content: center;
+}
+.Gib2{
+    display: flex;
+    justify-content: center;
+}
+.BMX2{
+    display: flex;
+    justify-content: center;
+}
+.Elec2{
+    display: flex;
+    justify-content: center;
 }
